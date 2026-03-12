@@ -9,3 +9,5 @@ Součástí aplikace je také funkce vyhledávání, která umožňuje rychle na
 
 
 
+![IMG_7761](https://github.com/user-attachments/assets/a75391a2-4b4d-4320-8f84-f431a3188d28)![IMG_7760](https://github.com/user-attachments/assets/91800c3d-4b1c-430b-bfa9-42fd731ce1bd)
+
