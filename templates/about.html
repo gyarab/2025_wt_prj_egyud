@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}O projektu | StatFoot{% endblock %}
+
+{% block content %}
+<section class="row g-4">
+    <div class="col-lg-8">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+            <div class="card-body p-4 p-md-5">
+                <h1 class="mb-3">O projektu</h1>
+                <p class="text-muted">
+                    StatFoot je připravovaná databázová webová aplikace zaměřená na evidenci
+                    a porovnávání statistik profesionálních fotbalistů z evropských soutěží.
+                    Projekt počítá s databází hráčů, týmů, lig a sezon, ke kterým budou
+                    přiřazeny podrobné statistiky jako góly, asistence, odehrané minuty
+                    nebo disciplinární záznamy.
+                </p>
+                <p class="text-muted mb-0">
+                    V dalších etapách se aplikace rozšíří o filtrování, žebříčky, detail
+                    hráče a správu obsahu přes administraci Django. Základ projektu je nyní
+                    připravený tak, aby se na něj dalo pohodlně navázat během druhého pololetí.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card border-0 bg-light rounded-4 shadow-sm h-100">
+            <div class="card-body p-4">
+                <h2 class="h5">Technický základ</h2>
+                <p class="mb-2">Projekt obsahuje:</p>
+                <ul class="mb-0">
+                    <li>Django projekt `prj`</li>
+                    <li>aplikaci `core`</li>
+                    <li>sdílenou šablonu `base.html`</li>
+                    <li>stránky `home` a `about`</li>
+                    <li>Bootstrap layout pro responzivní zobrazení</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
