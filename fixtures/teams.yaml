@@ -1,0 +1,42 @@
+- model: core.team
+  pk: 1
+  fields:
+    name: "Arsenal FC"
+    city: "Londýn"
+    stadium: "Emirates Stadium"
+    league: 1
+- model: core.team
+  pk: 2
+  fields:
+    name: "Manchester City"
+    city: "Manchester"
+    stadium: "Etihad Stadium"
+    league: 1
+- model: core.team
+  pk: 3
+  fields:
+    name: "FC Barcelona"
+    city: "Barcelona"
+    stadium: "Estadi Olimpic Lluis Companys"
+    league: 2
+- model: core.team
+  pk: 4
+  fields:
+    name: "Real Madrid"
+    city: "Madrid"
+    stadium: "Santiago Bernabeu"
+    league: 2
+- model: core.team
+  pk: 5
+  fields:
+    name: "Inter Milan"
+    city: "Milán"
+    stadium: "San Siro"
+    league: 3
+- model: core.team
+  pk: 6
+  fields:
+    name: "Juventus"
+    city: "Turín"
+    stadium: "Allianz Stadium"
+    league: 3

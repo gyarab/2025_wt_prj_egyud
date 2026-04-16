@@ -36,11 +36,7 @@ class Team(models.Model):
     name = models.CharField(max_length=100)
     city = models.CharField(max_length=100)
     stadium = models.CharField(max_length=100)
-    league = models.ForeignKey(
-        League,
-        on_delete=models.CASCADE,
-        related_name="teams",
-    )
+    league = models.ForeignKey(League, on_delete=models.CASCADE, related_name="teams")
 
     class Meta:
         ordering = ["name"]
@@ -74,11 +70,7 @@ class Player(models.Model):
     age = models.PositiveSmallIntegerField()
     position = models.CharField(max_length=2, choices=POSITION_CHOICES)
     nationality = models.CharField(max_length=100)
-    team = models.ForeignKey(
-        Team,
-        on_delete=models.CASCADE,
-        related_name="players",
-    )
+    team = models.ForeignKey(Team, on_delete=models.CASCADE, related_name="players")
 
     class Meta:
         ordering = ["last_name", "first_name"]
@@ -90,16 +82,8 @@ class Player(models.Model):
 
 
 class Statistic(models.Model):
-    player = models.ForeignKey(
-        Player,
-        on_delete=models.CASCADE,
-        related_name="statistics",
-    )
-    season = models.ForeignKey(
-        Season,
-        on_delete=models.CASCADE,
-        related_name="statistics",
-    )
+    player = models.ForeignKey(Player, on_delete=models.CASCADE, related_name="statistics")
+    season = models.ForeignKey(Season, on_delete=models.CASCADE, related_name="statistics")
     goals = models.PositiveIntegerField(default=0)
     assists = models.PositiveIntegerField(default=0)
     yellow_cards = models.PositiveIntegerField(default=0)
@@ -123,11 +107,7 @@ class Statistic(models.Model):
 
 
 class Comment(models.Model):
-    player = models.ForeignKey(
-        Player,
-        on_delete=models.CASCADE,
-        related_name="comments",
-    )
+    player = models.ForeignKey(Player, on_delete=models.CASCADE, related_name="comments")
     user = models.ForeignKey(
         settings.AUTH_USER_MODEL,
         on_delete=models.CASCADE,
@@ -146,11 +126,7 @@ class Comment(models.Model):
 
 
 class Rating(models.Model):
-    player = models.ForeignKey(
-        Player,
-        on_delete=models.CASCADE,
-        related_name="ratings",
-    )
+    player = models.ForeignKey(Player, on_delete=models.CASCADE, related_name="ratings")
     user = models.ForeignKey(
         settings.AUTH_USER_MODEL,
         on_delete=models.CASCADE,

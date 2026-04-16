@@ -1,0 +1,108 @@
+- model: core.player
+  pk: 1
+  fields:
+    first_name: "Bukayo"
+    last_name: "Saka"
+    age: 24
+    position: "FW"
+    nationality: "Anglie"
+    team: 1
+- model: core.player
+  pk: 2
+  fields:
+    first_name: "Martin"
+    last_name: "Odegaard"
+    age: 27
+    position: "MF"
+    nationality: "Norsko"
+    team: 1
+- model: core.player
+  pk: 3
+  fields:
+    first_name: "Erling"
+    last_name: "Haaland"
+    age: 25
+    position: "FW"
+    nationality: "Norsko"
+    team: 2
+- model: core.player
+  pk: 4
+  fields:
+    first_name: "Rodri"
+    last_name: "Hernandez"
+    age: 29
+    position: "MF"
+    nationality: "Španělsko"
+    team: 2
+- model: core.player
+  pk: 5
+  fields:
+    first_name: "Pedri"
+    last_name: "Gonzalez"
+    age: 23
+    position: "MF"
+    nationality: "Španělsko"
+    team: 3
+- model: core.player
+  pk: 6
+  fields:
+    first_name: "Robert"
+    last_name: "Lewandowski"
+    age: 37
+    position: "FW"
+    nationality: "Polsko"
+    team: 3
+- model: core.player
+  pk: 7
+  fields:
+    first_name: "Jude"
+    last_name: "Bellingham"
+    age: 23
+    position: "MF"
+    nationality: "Anglie"
+    team: 4
+- model: core.player
+  pk: 8
+  fields:
+    first_name: "Vinicius"
+    last_name: "Junior"
+    age: 26
+    position: "FW"
+    nationality: "Brazílie"
+    team: 4
+- model: core.player
+  pk: 9
+  fields:
+    first_name: "Lautaro"
+    last_name: "Martinez"
+    age: 28
+    position: "FW"
+    nationality: "Argentina"
+    team: 5
+- model: core.player
+  pk: 10
+  fields:
+    first_name: "Nicolo"
+    last_name: "Barella"
+    age: 29
+    position: "MF"
+    nationality: "Itálie"
+    team: 5
+- model: core.player
+  pk: 11
+  fields:
+    first_name: "Dusan"
+    last_name: "Vlahovic"
+    age: 26
+    position: "FW"
+    nationality: "Srbsko"
+    team: 6
+- model: core.player
+  pk: 12
+  fields:
+    first_name: "Bremer"
+    last_name: "Silva"
+    age: 29
+    position: "DF"
+    nationality: "Brazílie"
+    team: 6

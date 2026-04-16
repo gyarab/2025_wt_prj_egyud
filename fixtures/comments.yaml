@@ -1,0 +1,28 @@
+- model: core.comment
+  pk: 1
+  fields:
+    player: 3
+    user: 1
+    text: "Silný zakončovatel s výborným výběrem místa, ale někdy mu chybí větší zapojení do kombinace."
+    created_at: "2026-04-16T18:10:00Z"
+- model: core.comment
+  pk: 2
+  fields:
+    player: 7
+    user: 2
+    text: "Bellingham zvládá přechod mezi liniemi skvěle a je vidět jeho vliv na tempo hry."
+    created_at: "2026-04-16T18:15:00Z"
+- model: core.comment
+  pk: 3
+  fields:
+    player: 6
+    user: 1
+    text: "Zkušený střelec, který si stále drží vysokou produktivitu i v náročných zápasech."
+    created_at: "2026-04-16T18:20:00Z"
+- model: core.comment
+  pk: 4
+  fields:
+    player: 10
+    user: 2
+    text: "Barella je typ středního záložníka, který spojuje kreativitu s obrovským pracovním nasazením."
+    created_at: "2026-04-16T18:24:00Z"

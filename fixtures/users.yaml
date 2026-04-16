@@ -1,0 +1,26 @@
+- model: auth.user
+  pk: 1
+  fields:
+    password: "pbkdf2_sha256$1000000$demo$uY1xC7z9m2y6YcVQb9kK7oVYj4X8rZq2mN6dJrQy8uQ="
+    last_login: null
+    is_superuser: false
+    username: "analytik"
+    first_name: "Jan"
+    last_name: "Novák"
+    email: "jan.novak@example.com"
+    is_staff: false
+    is_active: true
+    date_joined: "2026-04-16T18:00:00Z"
+- model: auth.user
+  pk: 2
+  fields:
+    password: "pbkdf2_sha256$1000000$demo$uY1xC7z9m2y6YcVQb9kK7oVYj4X8rZq2mN6dJrQy8uQ="
+    last_login: null
+    is_superuser: false
+    username: "fanousek"
+    first_name: "Petr"
+    last_name: "Svoboda"
+    email: "petr.svoboda@example.com"
+    is_staff: false
+    is_active: true
+    date_joined: "2026-04-16T18:05:00Z"
