@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Domů | StatFoot{% endblock %}
+
+{% block content %}
+<section class="p-4 p-md-5 mb-4 bg-white border rounded-4 shadow-sm">
+    <div class="row align-items-center g-4">
+        <div class="col-lg-7">
+            <span class="badge rounded-pill text-bg-success mb-3">Django projekt</span>
+            <h1 class="display-5 fw-bold">Fotbalové statistiky přehledně na jednom místě</h1>
+            <p class="lead text-muted mb-4">
+                Aplikace StatFoot bude sloužit jako databáze profesionálních fotbalistů,
+                jejich klubů, lig, sezon a výkonů. Cílem je nabídnout rychlý přehled,
+                jednoduché porovnávání a prostor pro další rozvoj v průběhu semestru.
+            </p>
+            <a class="btn btn-success btn-lg" href="{% url 'about' %}">Zjistit více</a>
+        </div>
+        <div class="col-lg-5">
+            <div class="card border-0 bg-success-subtle rounded-4">
+                <div class="card-body p-4">
+                    <h2 class="h4">Plánovaná data</h2>
+                    <ul class="mb-0">
+                        <li>hráči a jejich pozice</li>
+                        <li>kluby a ligy</li>
+                        <li>sezony a výkonnostní statistiky</li>
+                        <li>uživatelské komentáře a hodnocení</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
