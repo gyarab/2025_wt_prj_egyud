@@ -1,0 +1,132 @@
+- model: core.statistic
+  pk: 1
+  fields:
+    player: 1
+    season: 2
+    goals: 16
+    assists: 11
+    yellow_cards: 4
+    red_cards: 0
+    appearances: 34
+    minutes_played: 2760
+- model: core.statistic
+  pk: 2
+  fields:
+    player: 2
+    season: 2
+    goals: 8
+    assists: 12
+    yellow_cards: 5
+    red_cards: 0
+    appearances: 33
+    minutes_played: 2684
+- model: core.statistic
+  pk: 3
+  fields:
+    player: 3
+    season: 2
+    goals: 27
+    assists: 6
+    yellow_cards: 2
+    red_cards: 0
+    appearances: 31
+    minutes_played: 2555
+- model: core.statistic
+  pk: 4
+  fields:
+    player: 4
+    season: 2
+    goals: 7
+    assists: 8
+    yellow_cards: 7
+    red_cards: 0
+    appearances: 32
+    minutes_played: 2870
+- model: core.statistic
+  pk: 5
+  fields:
+    player: 5
+    season: 2
+    goals: 6
+    assists: 9
+    yellow_cards: 3
+    red_cards: 0
+    appearances: 28
+    minutes_played: 2190
+- model: core.statistic
+  pk: 6
+  fields:
+    player: 6
+    season: 2
+    goals: 24
+    assists: 5
+    yellow_cards: 4
+    red_cards: 0
+    appearances: 35
+    minutes_played: 2904
+- model: core.statistic
+  pk: 7
+  fields:
+    player: 7
+    season: 2
+    goals: 14
+    assists: 10
+    yellow_cards: 6
+    red_cards: 0
+    appearances: 32
+    minutes_played: 2711
+- model: core.statistic
+  pk: 8
+  fields:
+    player: 8
+    season: 2
+    goals: 18
+    assists: 9
+    yellow_cards: 8
+    red_cards: 1
+    appearances: 30
+    minutes_played: 2486
+- model: core.statistic
+  pk: 9
+  fields:
+    player: 9
+    season: 2
+    goals: 23
+    assists: 4
+    yellow_cards: 5
+    red_cards: 0
+    appearances: 33
+    minutes_played: 2733
+- model: core.statistic
+  pk: 10
+  fields:
+    player: 10
+    season: 2
+    goals: 7
+    assists: 11
+    yellow_cards: 9
+    red_cards: 0
+    appearances: 34
+    minutes_played: 2812
+- model: core.statistic
+  pk: 11
+  fields:
+    player: 11
+    season: 2
+    goals: 19
+    assists: 3
+    yellow_cards: 4
+    red_cards: 0
+    appearances: 31
+    minutes_played: 2520
+- model: core.statistic
+  pk: 12
+  fields:
+    player: 12
+    season: 2
+    goals: 2
+    assists: 1
+    yellow_cards: 10
+    red_cards: 1
+    appearances: 29
+    minutes_played: 2601
