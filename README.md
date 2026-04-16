@@ -18,3 +18,4 @@ Repozitar obsahuje zakladni strukturu Django projektu:
 ```bash
 python manage.py runserver
 ```
+test
